@@ -16,7 +16,7 @@ This repository is used solely for deployment and distribution of the applicatio
 
 The latest version of the application can be downloaded from the GitHub Pages deployment site:
 
-https://https://icozm.github.io/VacationLive
+https://icozm.github.io/VacationLive/
 
 ## Installation
 
