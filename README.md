@@ -1,83 +1,30 @@
-# VacationLive Mobile Application
+# VacationLive
 
-Purpose
+VacationLive is an Android application designed to help users organize and manage vacation plans in one convenient place. The application allows users to create vacations, schedule excursions, and receive notifications for important travel dates.
 
-VacationLive is a mobile application designed to help users plan, organize, and manage their vacations in one convenient place. Users can create vacations, associate excursions with each trip, set alerts for important dates, and share their travel details.
+This repository is used solely for deployment and distribution of the application through GitHub Pages. It contains the downloadable Android APK and supporting files required for installation.
 
-This application helped me learn and demonstrate Android development skills, including user interface design, local data persistence using Room Database, and mobile application functionality.
+## Features
 
+* Create, edit, and delete vacation plans
+* Manage excursions associated with each vacation
+* Receive notifications for important vacation dates
+* Store application data locally on the device
+* Simple and intuitive user interface
 
-How to Operate the Application
-1. Launching the Application
-Install the signed APK on an Android device or emulator.
-Open the app to view the main screen displaying a list of vacations.
+## Download
 
+The latest version of the application can be downloaded from the GitHub Pages deployment site:
 
-2. Adding a Vacation
-Tap the Add (+) option.
-Enter the following details:
-Vacation Title
-Hotel Name
-Start Date
-End Date
-Save the vacation to add it to the list.
+https://https://icozm.github.io/VacationLive
 
-3. Viewing and Editing a Vacation
-Select a vacation from the list.
-On the Vacation Details screen, you can:
-Edit vacation details
-Delete the vacation (only if no excursions are associated)
-Set alerts for start and end dates
-Share vacation details
+## Installation
 
-4. Managing Excursions
-Open a vacation to view its associated excursions.
-Add a new excursion:
-Enter excursion title and date
-Ensure the date falls within the vacation start and end dates
-Edit or delete excursions as needed.
-The application supports adding, updating, and deleting multiple excursions per vacation.
+1. Download the APK from the deployment site.
+2. Transfer the APK to an Android device if necessary.
+3. Enable installation from unknown sources if prompted by the device.
+4. Open the APK file and follow the installation instructions.
 
+## Note
 
-5. Alerts and Notifications
-Users can set alerts for:
-Vacation start and end dates
-Excursion dates
-Notifications are delivered using Android’s AlarmManager and will trigger at the scheduled time.
-
-
-6. Sharing Vacation Details
-From the Vacation Details screen:
-Use the share feature to send vacation information via:
-Email
-SMS
-Other compatible applications
-The message is automatically populated with all relevant vacation details.
-
-
-7. Sample Data Feature
-Use the menu option to generate sample excursion data.
-The app will automatically navigate to the associated vacation where the data was added.
-
-
-Android Version
-Minimum SDK: API 26 (Android 8.0)
-Target SDK: API 36
-
-
-Git Repository
-Repository Link:
-https:
-
-
-Features Implemented:
-Full CRUD operations for vacations and excursions
-Room Database integration for persistent data storage
-RecyclerView for displaying dynamic lists
-Input validation for dates and required fields
-AlertManager for scheduled notifications
-Intent-based navigation between activities
-Built-in sharing functionality for vacation details
-
-Author:
-Developed by Ivan Cozmulici
+This repository contains only the files necessary to distribute and install the application. The complete source code and development history are maintained separately.
